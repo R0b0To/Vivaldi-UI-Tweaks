@@ -61,3 +61,8 @@
 .page-zoom-controls > .button-toolbar{
     display: none;
 }
+.auto-hide-wrapper.right,
+.auto-hide-wrapper.left{
+        top: 54px;
+        height: calc(100% - (60px * 2));
+}
