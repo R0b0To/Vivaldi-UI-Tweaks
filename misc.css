@@ -1,3 +1,6 @@
+html {
+	overscroll-behavior-x: none !important;
+}
 :root {
     --customRadius: 8px; /* NOT USING NOW */
     --colorAccentBgAlphaBlur: #0808089c;
@@ -65,4 +68,7 @@
 .auto-hide-wrapper.left{
         top: 54px;
         height: calc(100% - (60px * 2));
+}
+.UrlBar-SearchField{
+    top:9999px;
 }
